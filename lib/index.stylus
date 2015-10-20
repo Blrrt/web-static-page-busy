@@ -13,7 +13,7 @@ body
   display flex
   flex-direction column
   justify-content center
-  margin 0 20px
+  margin 0
   text-align center
 
 .logo
@@ -21,6 +21,7 @@ body
 
 .heading
   font-size 40px
+  font-weight normal
   line-height 70px
   margin 0
 
