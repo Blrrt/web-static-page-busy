@@ -54,7 +54,7 @@ gulp.task('html', ['css', 'images', 'js'], function () {
 });
 
 gulp.task('images', ['image'], function () {
-  return gulp.src(['build/image.jpg', 'lib/favicon.png', 'lib/logo.svg'])
+  return gulp.src(['build/image.jpg', 'lib/logo.svg'])
     .pipe(imagemin())
     .pipe(gulp.dest('build'));
 });
